@@ -1,16 +1,16 @@
-package com.jacobtread.mck.authlib
+package com.jacobtread.alto.authlib
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject
 import com.google.gson.JsonParseException
-import com.jacobtread.mck.authlib.exceptions.AuthException
-import com.jacobtread.mck.authlib.exceptions.InsufficientPrivilegesException
-import com.jacobtread.mck.authlib.exceptions.InvalidCredentialsException
-import com.jacobtread.mck.authlib.exceptions.UserMigratedException
-import com.jacobtread.mck.authlib.properties.PropertyMap
-import com.jacobtread.mck.utils.json.UUIDTypeAdapter
-import com.jacobtread.mck.utils.network.Https
+import com.jacobtread.alto.authlib.exceptions.AuthException
+import com.jacobtread.alto.authlib.exceptions.InsufficientPrivilegesException
+import com.jacobtread.alto.authlib.exceptions.InvalidCredentialsException
+import com.jacobtread.alto.authlib.exceptions.UserMigratedException
+import com.jacobtread.alto.authlib.properties.PropertyMap
+import com.jacobtread.alto.utils.json.UUIDTypeAdapter
+import com.jacobtread.alto.utils.network.Https
 import java.io.IOException
 import java.net.URL
 import java.util.*

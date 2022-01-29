@@ -1,4 +1,4 @@
-package com.jacobtread.mck.authlib.data
+package com.jacobtread.alto.authlib.data
 
 class ProfileTexture(val url: String, val metadata: Map<String, String>) {
 

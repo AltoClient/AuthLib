@@ -1,11 +1,11 @@
-package com.jacobtread.mck.authlib
+package com.jacobtread.alto.authlib
 
 import com.google.gson.*
-import com.jacobtread.mck.authlib.properties.PropertyMap
-import com.jacobtread.mck.utils.json.UUIDTypeAdapter
-import com.jacobtread.mck.utils.json.expectStringOrNull
-import com.jacobtread.mck.utils.nbt.*
-import com.jacobtread.mck.utils.nbt.types.NBTCompound
+import com.jacobtread.alto.authlib.properties.PropertyMap
+import com.jacobtread.alto.utils.json.UUIDTypeAdapter
+import com.jacobtread.alto.utils.json.expectStringOrNull
+import com.jacobtread.alto.utils.nbt.*
+import com.jacobtread.alto.utils.nbt.types.NBTCompound
 import java.lang.reflect.Type
 import java.util.*
 

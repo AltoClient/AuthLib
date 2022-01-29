@@ -1,7 +1,7 @@
-package com.jacobtread.mck.authlib
+package com.jacobtread.alto.authlib
 
 import com.google.gson.JsonObject
-import com.jacobtread.mck.authlib.exceptions.AuthException
+import com.jacobtread.alto.authlib.exceptions.AuthException
 import java.net.URL
 
 /**

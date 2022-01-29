@@ -1,6 +1,6 @@
-package com.jacobtread.mck.authlib.exceptions
+package com.jacobtread.alto.authlib.exceptions
 
-open class InsufficientPrivilegesException : AuthException {
+open class InvalidCredentialsException : AuthException {
     constructor() : super()
     constructor(message: String?) : super(message)
     constructor(message: String?, cause: Throwable?) : super(message, cause)

@@ -1,8 +1,8 @@
-package com.jacobtread.mck.authlib.data
+package com.jacobtread.alto.authlib.data
 
-import com.jacobtread.mck.authlib.GameProfile
-import com.jacobtread.mck.authlib.UserType
-import com.jacobtread.mck.utils.json.UUIDTypeAdapter
+import com.jacobtread.alto.authlib.GameProfile
+import com.jacobtread.alto.authlib.UserType
+import com.jacobtread.alto.utils.json.UUIDTypeAdapter
 
 data class Session(val username: String, val uuid: String, val token: String, val type: UserType) {
 

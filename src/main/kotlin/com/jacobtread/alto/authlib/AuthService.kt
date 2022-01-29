@@ -1,12 +1,12 @@
-package com.jacobtread.mck.authlib
+package com.jacobtread.alto.authlib
 
 import com.google.gson.JsonObject
-import com.jacobtread.mck.authlib.exceptions.AuthException
-import com.jacobtread.mck.authlib.exceptions.InvalidCredentialsException
-import com.jacobtread.mck.authlib.models.AuthRequest
-import com.jacobtread.mck.authlib.models.RefreshRequest
-import com.jacobtread.mck.authlib.models.ValidateRequest
-import com.jacobtread.mck.utils.json.expectString
+import com.jacobtread.alto.authlib.exceptions.AuthException
+import com.jacobtread.alto.authlib.exceptions.InvalidCredentialsException
+import com.jacobtread.alto.authlib.models.AuthRequest
+import com.jacobtread.alto.authlib.models.RefreshRequest
+import com.jacobtread.alto.authlib.models.ValidateRequest
+import com.jacobtread.alto.utils.json.expectString
 import java.net.URL
 
 object AuthService {

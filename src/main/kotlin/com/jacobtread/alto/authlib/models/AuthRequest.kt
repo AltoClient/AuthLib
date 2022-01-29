@@ -1,4 +1,4 @@
-package com.jacobtread.mck.authlib.models
+package com.jacobtread.alto.authlib.models
 
 import com.google.gson.JsonObject
 import com.google.gson.annotations.SerializedName

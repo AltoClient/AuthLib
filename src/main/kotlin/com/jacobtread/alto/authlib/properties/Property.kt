@@ -1,4 +1,4 @@
-package com.jacobtread.mck.authlib.properties
+package com.jacobtread.alto.authlib.properties
 
 import java.nio.charset.StandardCharsets
 import java.security.GeneralSecurityException

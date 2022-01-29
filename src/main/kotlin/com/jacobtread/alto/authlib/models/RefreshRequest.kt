@@ -1,7 +1,7 @@
-package com.jacobtread.mck.authlib.models
+package com.jacobtread.alto.authlib.models
 
 import com.google.gson.annotations.SerializedName
-import com.jacobtread.mck.authlib.GameProfile
+import com.jacobtread.alto.authlib.GameProfile
 
 class RefreshRequest(
     @SerializedName("clientToken") val clientToken: String,

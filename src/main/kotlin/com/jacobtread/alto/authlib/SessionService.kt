@@ -1,18 +1,18 @@
-package com.jacobtread.mck.authlib
+package com.jacobtread.alto.authlib
 
 import com.google.common.cache.CacheBuilder
 import com.google.common.cache.CacheLoader
 import com.google.gson.JsonObject
 import com.google.gson.JsonParseException
 import com.google.gson.reflect.TypeToken
-import com.jacobtread.mck.authlib.data.ProfileTexture
-import com.jacobtread.mck.authlib.exceptions.AuthException
-import com.jacobtread.mck.authlib.exceptions.AuthUnavailableException
-import com.jacobtread.mck.authlib.exceptions.InsecureTextureException
-import com.jacobtread.mck.authlib.models.JoinServerRequest
-import com.jacobtread.mck.authlib.properties.PropertyMap
-import com.jacobtread.mck.utils.json.UUIDTypeAdapter
-import com.jacobtread.mck.utils.network.urlEncode
+import com.jacobtread.alto.authlib.data.ProfileTexture
+import com.jacobtread.alto.authlib.exceptions.AuthException
+import com.jacobtread.alto.authlib.exceptions.AuthUnavailableException
+import com.jacobtread.alto.authlib.exceptions.InsecureTextureException
+import com.jacobtread.alto.authlib.models.JoinServerRequest
+import com.jacobtread.alto.authlib.properties.PropertyMap
+import com.jacobtread.alto.utils.json.UUIDTypeAdapter
+import com.jacobtread.alto.utils.network.urlEncode
 import java.net.URL
 import java.security.KeyFactory
 import java.security.PublicKey

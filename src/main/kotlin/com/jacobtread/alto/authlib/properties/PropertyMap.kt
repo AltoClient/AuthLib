@@ -1,11 +1,11 @@
-package com.jacobtread.mck.authlib.properties
+package com.jacobtread.alto.authlib.properties
 
 import com.google.common.collect.ForwardingMultimap
 import com.google.common.collect.LinkedHashMultimap
 import com.google.common.collect.Multimap
 import com.google.gson.*
-import com.jacobtread.mck.utils.nbt.*
-import com.jacobtread.mck.utils.nbt.types.NBTCompound
+import com.jacobtread.alto.utils.nbt.*
+import com.jacobtread.alto.utils.nbt.types.NBTCompound
 import java.lang.reflect.Type
 
 class PropertyMap : ForwardingMultimap<String, Property>(), NBTMutableSerializable {

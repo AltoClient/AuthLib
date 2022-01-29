@@ -1,4 +1,4 @@
-package com.jacobtread.mck.authlib
+package com.jacobtread.alto.authlib
 
 /**
  * UserType Represents the type of minecraft account
